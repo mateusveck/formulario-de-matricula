@@ -1,0 +1,109 @@
+/* Text colors */
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-tertiary {
+  color: var(--text-tertiary);
+}
+
+.text-highlight {
+  color: var(--text-highlight);
+}
+
+.semantic-error {
+  color: var(--semantic-error);
+}
+
+/* Background / Brand */
+.brand-light {
+  background-color: var(--brand-light);
+}
+
+.brand-mid {
+  background-color: var(--brand-mid);
+}
+
+.brand-dark {
+  background-color: var(--brand-dark);
+}
+
+/* Background / Surface */
+.surface-primary {
+  background-color: var(--surface-primary);
+}
+
+.surface-secondary {
+  background-color: var(--surface-secondary);
+}
+
+.surface-disabled {
+  background-color: var(--surface-disabled);
+}
+
+/* Background / Supporting */
+.orange {
+  background-color: var(--orange);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.violet {
+  background-color: var(--violet);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+
+/* Border / Stroke */
+.stroke-default {
+  border: 1px solid var(--stroke-default);
+}
+
+.stroke-highlight {
+  border: 1px solid var(--stroke-highlight);
+}
+
+.border-error {
+  border: 1px solid var(--semantic-error);
+}
+
+/* Typography */
+.h1 {
+  font: var(--h1);
+}
+
+.h2 {
+  font: var(--h2);
+}
+
+.h3 {
+  font: var(--h3);
+}
+
+.h4 {
+  font: var(--h4);
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 32px;
+  box-sizing: border-box;
+}
