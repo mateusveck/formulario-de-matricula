@@ -48,11 +48,11 @@ button {
 
     --font-family:"Poppins", sans-serif;
 
-    --h1:800 32px/120% var(--font-family);
-    --h2:600 16px/125% var(--font-family);
-    --h3:800 20px/120% var(--font-family);
-    --h4:400 16px/150% var(--font-family); 
-    --h5:400 14px/140% var(--font-family); 
+    --h1:800 2rem/120% var(--font-family);
+    --h2:600 1rem/125% var(--font-family);
+    --h3:800 1.25rem/120% var(--font-family);
+    --h4:400 1rem/150% var(--font-family); 
+    --h5:400 0.875rem/140% var(--font-family); 
 
 
 
@@ -71,6 +71,6 @@ select {
   appearance: none;
   background-image: url("./img/icons/arrow-down-01.png");
   background-repeat: no-repeat;
-  background-position: right 16px center;
-  background-size: 20px;
+  background-position: right 1rem center;
+  background-size: 1.25rem;
 }

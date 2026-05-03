@@ -3,8 +3,8 @@
     figure{
         display: flex;
         align-items: center;
-        gap: 8px;
-        margin-block:24px;
+        gap: 0.5rem;
+        margin-block:1.5rem;
 
     }
 
@@ -13,38 +13,38 @@
 fieldset{
     
     border: none;
-    margin-block: 48px;
+    margin-block: 3rem;
 }
 
         
 
     
 .inputpd{
-        border: 1px solid var(--stroke-default) ;
+        border: 0.0625rem solid var(--stroke-default) ;
         width: 100%;
         max-width: 100%;
         display: block;
-        height: 48px;
-        border-radius: 8px;
-        padding-inline: 16px;
+        height: 3rem;
+        border-radius: 0.5rem;
+        padding-inline: 1rem;
         font-family: inherit;
        
         
     }
 
 .inputpd:focus, textarea:focus{
-     box-shadow: 2px 2px  12px var(--stroke-highlight);
+     box-shadow: 0.125rem 0.125rem 0.75rem var(--stroke-highlight);
 }
 
 
 .xl-text{
         width: 100%;
         max-width: 100%;
-        min-height: 120px;
-        max-height: 160px;
+        min-height: 7.5rem;
+        max-height: 10rem;
         resize: vertical;
         box-sizing: border-box;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         border-color: var(--stroke-default);
     }
 
@@ -56,14 +56,14 @@ fieldset{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 0.75rem;
 
     color: var(--text-tertiary);
 
     width: 100%;
-    height: 160px;
-    border: 2px dashed var(--stroke-default);
-    border-radius: 8px;
+    height: 10rem;
+    border: 0.125rem dashed var(--stroke-default);
+    border-radius: 0.5rem;
     transition: border-color 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
 
             &:hover {
@@ -85,7 +85,7 @@ fieldset{
 }
 
 .med-inf{
-    height: 160px; 
+    height: 10rem; 
 }
 
 input[type="file"] {
@@ -100,8 +100,8 @@ input[type="file"] {
 .error{
     display: none;
     color: var(--semantic-error);
-    margin: 8px;
-    gap: 8px;
+    margin: 0.5rem;
+    gap: 0.5rem;
 }
 
 .inputpd:not(:placeholder-shown):invalid + .error {
@@ -119,9 +119,9 @@ input[type="file"] {
 }
 
 .input-turn{
-    border: 1px solid var(--stroke-default);
-    border-radius: 8px;
-    gap: 8px;
+    border: 0.0625rem solid var(--stroke-default);
+    border-radius: 0.5rem;
+    gap: 0.5rem;
    
     width: 100%;
     display: flex;
@@ -134,15 +134,15 @@ input[type="file"] {
     & input[type="radio"] {
         appearance: none;
 
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
 
-        border: 2px solid var(--stroke-default);
+        border: 0.125rem solid var(--stroke-default);
         border-radius: 50%;
 
         position: absolute;
-        top: 12px;
-        left: 12px;
+        top: 0.75rem;
+        left: 0.75rem;
 
         cursor: pointer;
         
@@ -156,7 +156,7 @@ input[type="file"] {
             input[type="radio"]:checked::before {
             content: "✓";
             color: white;
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: bold;
 
             display: flex;
@@ -168,18 +168,18 @@ input[type="file"] {
             }
 
             &:focus{
-                box-shadow: 2px 2px  12px var(--stroke-highlight);
+                box-shadow: 0.125rem 0.125rem 0.75rem var(--stroke-highlight);
                 }
 
                 &:has(input:checked){
-                    border: 1px solid var(--stroke-highlight);
-                    box-shadow: 2px 2px  12px var(--stroke-highlight);
+                    border: 0.0625rem solid var(--stroke-highlight);
+                    box-shadow: 0.125rem 0.125rem 0.75rem var(--stroke-highlight);
                 }
 
             
                 img{
-                    width: 48px;
-                    height: 48px;
+                    width: 3rem;
+                    height: 3rem;
                 }
 
               
@@ -187,24 +187,24 @@ input[type="file"] {
 }
 
 .grid-sol{
-     height: 128px;
+     height: 8rem;
 
 }
 
 .grid-sports{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .sport{
     display: block;
-   padding-block: 24px;
+   padding-block: 1.5rem;
 }  
 
 .termos{
     label{
-        padding-inline: 16px;
+        padding-inline: 1rem;
     }
     display:flex;
     align-items: baseline;
@@ -213,9 +213,9 @@ input[type="file"] {
 }
 
 .forma{
-    border: 2px solid;
-    border-radius: 8px;
-    padding: 16px 32px ;
+    border: 0.125rem solid;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem ;
 }
 
 .salvar{
@@ -225,7 +225,7 @@ input[type="file"] {
     transition: border-color 0.3s ease, transform 0.3s ease,  box-shadow 0.3s ease;
 
     &:hover{
-        box-shadow: 4px 4px 12px var(--brand-dark);
+        box-shadow: 0.25rem 0.25rem 0.75rem var(--brand-dark);
         
     }
 }
@@ -239,7 +239,7 @@ input[type="file"] {
 
     &:hover{
         background-color: var(--brand-mid);
-        box-shadow: 4px 4px 12px var(--brand-mid);
+        box-shadow: 0.25rem 0.25rem 0.75rem var(--brand-mid);
         transform: scale(1.1) ease ;
     }
 
@@ -247,6 +247,6 @@ input[type="file"] {
 
 footer{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     justify-self: end;
 }
