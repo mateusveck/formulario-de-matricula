@@ -1,0 +1,97 @@
+
+@media (max-width: 768px) {
+
+  body {
+    grid-template-columns: 1fr;
+    padding-inline: 0;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    padding: 1.75rem 1.25rem 3rem;
+  }
+
+  .container {
+    padding-inline: 0;
+  }
+  .form-header figure {
+    margin-block: 0 1rem;
+  }
+
+  .form-header .h1 {
+    font-size: 1.375rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-header .h4 {
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+
+  fieldset {
+    margin-block: 1.75rem;
+  }
+
+  .inputgrid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .input-file {
+    height: 8rem;
+    gap: 0.5rem;
+  }
+
+  .input-file svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  
+  .input-turn-grid {
+    gap: 0.75rem;
+  }
+
+  .grid-sol {
+    height: 6.5rem;
+  }
+
+
+  .grid-sports {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.625rem;
+  }
+
+  .grid-sports .input-turn {
+    padding-block: 1rem;
+    min-height: 6rem;
+  }
+
+
+  .termos {
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .termos label {
+    padding-inline: 0;
+  }
+
+
+  footer {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  footer .forma {
+    width: 100%;
+    text-align: center;
+    padding: 0.875rem 1rem;
+  }
+
+}
